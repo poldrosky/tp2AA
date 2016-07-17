@@ -1,0 +1,31 @@
+@book{mitchell1997machine,
+  title={Machine Learning},
+  author={Mitchell, T.M.},
+  isbn={9780071154673},
+  lccn={97007692},
+  series={McGraw-Hill International Editions},
+  url={https://books.google.com.ar/books?id=EoYBngEACAAJ},
+  year={1997},
+  publisher={McGraw-Hill}
+}
+
+@book{Hernandez2004,
+  added-at = {2012-04-21T17:01:18.000+0200},
+  author = {Hernández Orallo, José and Ramírez Quintana, María José and Ferri Ramírez, César},
+  biburl = {http://www.bibsonomy.org/bibtex/229053cb3c247b924a7469d8a9eb36672/dolly.carrillo},
+  interhash = {209fbb75ce2ec69ed450de9c914ca657},
+  intrahash = {29053cb3c247b924a7469d8a9eb36672},
+  keywords = {datamining},
+  pages = 680,
+  publisher = {Pearson Educación},
+  timestamp = {2012-04-21T17:01:18.000+0200},
+  title = {Introducción a la Minería de Datos},
+  year = 2004
+}
+
+@misc{kursa2010feature,
+  title={Feature selection with the Boruta package},
+  author={Kursa, Miron B and Rudnicki, Witold R and others},
+  year={2010},
+  publisher={Journal}
+}

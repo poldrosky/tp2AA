@@ -1,0 +1,29 @@
+\section{Introducción}
+
+La Inmobiliaria www.barealestate.com.ar dispone de un sitio Web para la compra y
+venta de inmuebles en la Ciudad de Buenos Aires. Para disminuir los costos de
+publicación, necesita disponer de una pre-valorización de los inmuebles publicados a la
+venta por los propietarios.
+
+La empresa necesitaría de alguna forma estimar el rango del precio del metro cuadrado del
+inmueble para decidir el nivel de especialista que destinará para realizar una
+inspección física y así obtener una cotización real del precio de venta. Para la
+empresa, el costo de la publicación depende mucho del nivel del especialista que tiene
+que realizar la cotización, por lo tanto, desea bajarlo manteniendo acotado el riesgo de
+una mala cotización.
+
+Se usaron dos conjuntos de datos, uno para entrenamiento con 15.000 registros y otro con 4.000 registros para devolverlo clasificado, 
+el conjunto de datos tiene 5 clases las cuales vienen dadas de la siguiente manera:
+
+\begin{itemize}
+ \item Clase 1: $m^2$ <= \$2.000
+ \item Clase 2: \$2.000 < $m^2$ <= \$2.500
+ \item Clase 3: \$2.500 < $m^2$ <= \$5.500
+ \item Clase 4: \$5.500 < $m^2$ <= \$18.500
+ \item Clase 5: \$18.500 < $m^2$
+\end{itemize}
+
+El objetivo de este trabajo práctico es desarrollar un modelo de predicción del rango
+del precio del metro cuadrado de propiedades a la venta en la Ciudad de Buenos Aires, realizando
+modelos de predicción teniendo en cuenta conceptos de árboles de decisión, minería de texto,
+resampling y ensamble.

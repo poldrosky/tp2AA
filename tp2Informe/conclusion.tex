@@ -1,0 +1,15 @@
+ 
+\section{Conclusiones}
+
+Se construyón un modelo de clasificación para resolver el problema para predecir el precio del $m^2$  
+a la venta en la Ciudad de Buenos Aires, de esta forma poder estimar el rango del precio del $m^2$ de un inmueble.
+
+El árbol random forest, resultó ser el mejor clasificador de árboles debido a que se basa en el desarrollo de
+muchos árboles de clasificación que dependen de un vector aleatorio probado independientemente y con la 
+misma distribución para cada uno de estos.
+
+El hacer resampling por filas sirve para generar varios modelos, y con ellos realizar votación, esto ayuda
+a que al aplicar estos modelos, se pueda hacer una votación y se pueda quedar con el que valor con más frecuencia.
+
+Cuando se aplica árboles de decisión algunos datos no se van a clasificar, por esta razón fue necesario utilizar
+un clasificador probabilístico para los datos que no fueron clasificados.
